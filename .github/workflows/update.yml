@@ -1,0 +1,55 @@
+name: Update apps
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: cachix/install-nix-action@v31
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Bump sources.json to latest releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: nix run .#update
+
+      - name: Find changed apps
+        id: changed
+        run: |
+          apps=$(jq -rn --slurpfile old <(git show HEAD:sources.json) --slurpfile new sources.json \
+            '$new[0] | to_entries | map(select(.value != $old[0][.key])) | map(.key) | join(" ")')
+          echo "apps=$apps" >> "$GITHUB_OUTPUT"
+          echo "Changed: ${apps:-none}"
+
+      - name: Build and smoke-test changed apps
+        if: steps.changed.outputs.apps != ''
+        run: |
+          for app in ${{ steps.changed.outputs.apps }}; do
+            out=$(nix build --no-link --print-out-paths ".#$app")
+            "$out/bin/$app-cli" --version
+          done
+
+      - name: Commit
+        if: steps.changed.outputs.apps != ''
+        run: |
+          summary=$(for app in ${{ steps.changed.outputs.apps }}; do
+            echo "- $app $(jq -r --arg a "$app" '.[$a].version' sources.json)"
+          done)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update: ${{ steps.changed.outputs.apps }}" -m "$summary"
+          git push

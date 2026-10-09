@@ -72,6 +72,9 @@ nix run .#update -- photocraft   # just one
 nix run .#update -- --no-src     # binary hashes only (seconds)
 ```
 
+A GitHub Action (`.github/workflows/update.yml`) runs this daily, builds and smoke-tests every
+updated app, and commits the bump to `main` only if they all pass.
+
 Binary hashes come from each release's `SHA256SUMS.txt`. Set `GITHUB_TOKEN` to avoid API rate
 limits. Hand-maintained per-app metadata (descriptions, cargo features, whether it needs ALSA) is
 in `nix/apps.nix`.
