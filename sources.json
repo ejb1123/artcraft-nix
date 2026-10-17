@@ -120,15 +120,15 @@
     }
   },
   "vectorcraft": {
-    "version": "0.11.0",
-    "tag": "v0.11.0",
+    "version": "0.12.0",
+    "tag": "v0.12.0",
     "bin": {
-      "x86_64-linux": "sha256-g8pipFW7sdHGHGsFEzvEHO2h0dmeS+dQnSh8Nkzrjzk=",
-      "aarch64-linux": "sha256-/VlElOLxSYy32rAaOhCnDsjuaejdJqjtRoIZoPQZK1M="
+      "x86_64-linux": "sha256-Z1DbEJ06JTxRyCl1r2UPQjhLonp2j3JSlDHt+1hQgmk=",
+      "aarch64-linux": "sha256-8eelwA68g9hCvFfcs115Ff7bCZZYXKLyep4esqaVa+g="
     },
     "src": {
-      "hash": "sha256-kATUMg2Bo8karh4swMByAg7E3BGg8lrpppEh3VT+oZ0=",
-      "cargoHash": "sha256-rehAo3VB8gqPjRuOGohbqJmMtZjh5xkK4UBBEJFRa/o="
+      "hash": "sha256-8wlih5NQtcDBRBv7wJ+AQP3M5yHSAYpT+5xDEFiS4yY=",
+      "cargoHash": "sha256-yf5+kbSb7381SoD8fAl4rsPGruTyqwHiVIUcolSFHAc="
     }
   },
   "wordcraft": {
