@@ -96,15 +96,15 @@
     }
   },
   "photocraft": {
-    "version": "0.14.0",
-    "tag": "v0.14.0",
+    "version": "0.15.1",
+    "tag": "v0.15.1",
     "bin": {
-      "x86_64-linux": "sha256-PR9gp2wlqvv1PyPP7dNoe9metvUwmSDhQNWIvTISyTY=",
-      "aarch64-linux": "sha256-Q+e0vdabxa10fR9hYa72+6SDnngHqG6wzR0AiJc5VhU="
+      "x86_64-linux": "sha256-tiK+QDVVEwVvgVKv6JXQoFwbw8NEoCf3cqmhL6PRwiM=",
+      "aarch64-linux": "sha256-/y6hlF3ztBOxfGTsfAExwJOwnHF5lKR7TEbA2r8cgi8="
     },
     "src": {
-      "hash": "sha256-dkaJAJAcB433EDRiteDoxfvK17st37YP/tmlzQhi0UE=",
-      "cargoHash": "sha256-I0b+ZDqsi2fucOlIbu3UpVAFV4hvIJyUoWFx28SYiC8="
+      "hash": "sha256-VEUY4Woazx5WZgCODYMWI+8CyF4w1rHp1vI9CY+bgdw=",
+      "cargoHash": "sha256-KXur3Ki4LGCmxXgHmUy7uLKT2X7LiMFdRnVJTolBAPk="
     }
   },
   "soundcraft": {
