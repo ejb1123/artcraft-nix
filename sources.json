@@ -36,15 +36,15 @@
     }
   },
   "effectcraft": {
-    "version": "0.23.0",
-    "tag": "v0.23.0",
+    "version": "0.23.1",
+    "tag": "v0.23.1",
     "bin": {
-      "x86_64-linux": "sha256-E9mrI7db57inF3XMlALg+DIoCxZhR0ZyglV+nGoh09I=",
-      "aarch64-linux": "sha256-smb0cTyPhg3SvIR5MEE8Ci+gf4LD83UqQMptDPAEZ7E="
+      "x86_64-linux": "sha256-ozDRQG/ecdB6xVrTf+gfXeN+x+p8p8O5+gKqzQRQLbE=",
+      "aarch64-linux": "sha256-//jtdSuQ1jweSR9sxtJwD8cSL8FeH6tnQAAGUFK+8/4="
     },
     "src": {
-      "hash": "sha256-n/2giRpLQaYpcdEJJRyxo6CNTPyYQDURiaawVhKl8fc=",
-      "cargoHash": "sha256-0OtMFYXS/sRnDhFfsMcObWsgpG2yCJP3f6Cm3M3RcoA="
+      "hash": "sha256-kFizeWBOTDc0/2KYpxdCMS4fmhpED8se4hdF49Dr9KI=",
+      "cargoHash": "sha256-nDfuFsuA1Z8DTPFq2BBREwNWnLTAFJt/qcK8nmRsfUc="
     }
   },
   "filmcraft": {
