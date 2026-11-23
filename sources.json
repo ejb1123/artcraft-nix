@@ -84,15 +84,15 @@
     }
   },
   "pdfcraft": {
-    "version": "0.21.1",
-    "tag": "v0.21.1",
+    "version": "0.22.0",
+    "tag": "v0.22.0",
     "bin": {
-      "x86_64-linux": "sha256-wpGekETv/eMY5mgHrSohu7dKlVWzwLmfmtDEDPYc4l4=",
-      "aarch64-linux": "sha256-sI7+QWwdpFCwSz5OxfA4nXHXWA9DmPntoG0z0EcTx3A="
+      "x86_64-linux": "sha256-qJk/nuluh6zOz5CvQib/YKhLnheHrp/Y+kj/4Tlrw14=",
+      "aarch64-linux": "sha256-zhN3JlUBWOIsiHy49xAB47KdF0Gup0kuDw/0kFTi/gM="
     },
     "src": {
-      "hash": "sha256-2X2ixtr7mxHRpfhcGghKUO7ib0SFBruBmQPIlTFZ8Ds=",
-      "cargoHash": "sha256-sjnRF9WVDRPrgEgwZEyVIEk3qq3Erkv9cBtlkgb52lc="
+      "hash": "sha256-6v1x0XPMBkeZfQviH0S9V1KG3jFNCbAAtFHkugtWZ2g=",
+      "cargoHash": "sha256-1cPcxGa8I25Heg8uzY4r3KwYgyPJEzkONjzDSIhythw="
     }
   },
   "photocraft": {
