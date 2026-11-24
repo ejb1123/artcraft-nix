@@ -24,27 +24,27 @@
     }
   },
   "designcraft": {
-    "version": "0.20.1",
-    "tag": "v0.20.1",
+    "version": "0.21.1",
+    "tag": "v0.21.1",
     "bin": {
-      "x86_64-linux": "sha256-6RYw1M31eMyx4vOfiOJOhSDxSC1RrkcUZX7kceIjf0Q=",
-      "aarch64-linux": "sha256-IIw89zVl+nZcR+62AflP7EJegX0VzCEx36HB6+LQZiA="
+      "x86_64-linux": "sha256-IR50ufXO5b/DzbRpg9C9sf29CRZL/YB/T/cHBpNdQK4=",
+      "aarch64-linux": "sha256-CszzA9olsOGtKwCk2BLekgekX+wjbBlCHZpATJ0pHdY="
     },
     "src": {
-      "hash": "sha256-rsQfF66CymQ46Ty+RG76A46d6mD8HcMHCOH9EE6sog4=",
-      "cargoHash": "sha256-BmlQ/G1pBW34W13sTz8jPi/kbzrtB5ZcTyrNOXgpidE="
+      "hash": "sha256-3uAGBkGuzy0MXbgX22fyTQoJjnBamxfX6dBD9xJ/b2Q=",
+      "cargoHash": "sha256-Ywce1EXWn9xMJSLpjoouWIdVOKR//yHye4GLJc0ZvXU="
     }
   },
   "effectcraft": {
-    "version": "0.24.1",
-    "tag": "v0.24.1",
+    "version": "0.25.1",
+    "tag": "v0.25.1",
     "bin": {
-      "x86_64-linux": "sha256-XOA5NpAUQif6kYboIwitY4pu9tn5dsmW5tA7W1G2Wns=",
-      "aarch64-linux": "sha256-rRDERQZWgXYN6TUxF8bixFFn6rzM8O0ZveL1xayQhpU="
+      "x86_64-linux": "sha256-byn/fgNZkJ/h2/b9PP2EMKA2I0m2EsXrLPyP7nueJ2A=",
+      "aarch64-linux": "sha256-pKlsjbdwMKsrLCQYNhrr70TtspeUtcBks7jIEenqpSM="
     },
     "src": {
-      "hash": "sha256-dtqPop1xmtd/duzJt02QCZj5zrtVtyvUI8hj4TbeSkc=",
-      "cargoHash": "sha256-TyxQTE247lH2Q1vUJQZudrYSHx7DS+DF5ZfbUUpB/XI="
+      "hash": "sha256-KgWUNQ5GTgGeQoH6oDbLOq552ZNjiHE1cKo+Cx8s9wg=",
+      "cargoHash": "sha256-CBcFe+ceuQhsU4SNd48096EBbNfqvT86UANGr8kXBhM="
     }
   },
   "filmcraft": {
